@@ -37,6 +37,8 @@ class Inj {
 //    if (!_init) _initInj();
 //    return _getIt.get<PlasticWheel>();
 //  }
+
+  static T getWheel<T>() => _getIt.get<T>();
 }
 
 
